@@ -1,0 +1,12 @@
+[submodule "dev-framework"]
+	path = dev-framework
+	url = https://github.com/chawkitariq/dev-framework.git
+[submodule "uiux-framework"]
+	path = uiux-framework
+	url = https://github.com/chawkitariq/uiux-framework.git
+[submodule "ops-framework"]
+	path = ops-framework
+	url = https://github.com/chawkitariq/ops-framework.git
+[submodule "tariq-framework"]
+	path = tariq-framework
+	url = https://github.com/chawkitariq/tariq-framework.git
