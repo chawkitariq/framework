@@ -8,6 +8,7 @@ Dépôt parent qui regroupe les frameworks Claude Code par thème, chacun dans s
 | UI/UX | [uiux-framework](https://github.com/chawkitariq/uiux-framework) | Design, motion, landing pages premium, copy d'interface |
 | Ops | [ops-framework](https://github.com/chawkitariq/ops-framework) | Hébergement, infrastructure, DevOps (Cloudflare, hébergement gratuit) |
 | Méthode | [tariq-framework](https://github.com/chawkitariq/tariq-framework) *(privé)* | Méthode, offre et processus de mon activité |
+| Poste de travail | [desktop-framework](https://github.com/chawkitariq/desktop-framework) | Reconstruction de l'environnement de dev Windows 11 + WSL2, CLAUDE.md global |
 
 D'autres thèmes viendront s'ajouter.
 
@@ -25,7 +26,7 @@ D'autres thèmes viendront s'ajouter.
 | Déployer une app sur un VPS (SSH, Docker, secrets) | `ops-framework` : `vps-deploy` |
 | Cloudflare ou Vercel : skills officiels à vérifier d'abord | `ops-framework` : `platform-official-skills` |
 
-Les frameworks vidéo (shorts) et poste de travail (desktop) restent autonomes : ils ne font pas partie de ce dépôt.
+Le framework vidéo (shorts) reste autonome : il ne fait pas partie de ce dépôt.
 
 ## Règles d'or
 
@@ -62,4 +63,4 @@ for t in dev-framework uiux-framework ops-framework; do
 done
 ```
 
-(`tariq-framework` range ses skills et agents dans `.claude/` : ils s'utilisent en ouvrant ce dépôt dans Claude Code.)
+(`tariq-framework` range ses skills et agents dans `.claude/` : ils s'utilisent en ouvrant ce dépôt dans Claude Code. `desktop-framework` n'a pas de skills : il s'utilise via son `bootstrap.ps1`.)

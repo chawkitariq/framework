@@ -10,3 +10,6 @@
 [submodule "tariq-framework"]
 	path = tariq-framework
 	url = https://github.com/chawkitariq/tariq-framework.git
+[submodule "desktop-framework"]
+	path = desktop-framework
+	url = https://github.com/chawkitariq/desktop-framework.git
